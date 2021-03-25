@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="5.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIsRESTful.Peliculas.Application\APIsRESTful.Peliculas.Application.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.DataAccess\APIsRESTful.Peliculas.DataAccess.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.Domain\APIsRESTful.Peliculas.Domain.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.DTO\APIsRESTful.Peliculas.DTO.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.Entities\APIsRESTful.Peliculas.Entities.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IApplication\APIsRESTful.Peliculas.IApplication.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IDataAccess\APIsRESTful.Peliculas.IDataAccess.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IDomain\APIsRESTful.Peliculas.IDomain.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IInfrastructure\APIsRESTful.Peliculas.IInfrastructure.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.Infrastructure\APIsRESTful.Peliculas.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.4" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIsRESTful.Peliculas.DTO\APIsRESTful.Peliculas.DTO.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.Entities\APIsRESTful.Peliculas.Entities.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IApplication\APIsRESTful.Peliculas.IApplication.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IDomain\APIsRESTful.Peliculas.IDomain.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IInfrastructure\APIsRESTful.Peliculas.IInfrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

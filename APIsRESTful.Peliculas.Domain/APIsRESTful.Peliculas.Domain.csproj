@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIsRESTful.Peliculas.Entities\APIsRESTful.Peliculas.Entities.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IDataAccess\APIsRESTful.Peliculas.IDataAccess.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.IDomain\APIsRESTful.Peliculas.IDomain.csproj" />
+  </ItemGroup>
+
+</Project>

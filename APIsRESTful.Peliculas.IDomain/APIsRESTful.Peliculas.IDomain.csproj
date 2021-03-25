@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIsRESTful.Peliculas.DTO\APIsRESTful.Peliculas.DTO.csproj" />
+    <ProjectReference Include="..\APIsRESTful.Peliculas.Entities\APIsRESTful.Peliculas.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
